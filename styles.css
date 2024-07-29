@@ -57,7 +57,7 @@ body {
     gap: 1.5rem;
     background-color: rgb(221, 221, 221);
     padding: 5rem;
-    max-width: 50rem;
+    max-width: 25rem;
 }
 .labels {
     display:flex;
