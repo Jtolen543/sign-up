@@ -2,6 +2,7 @@ body {
     display:flex;
     background-color:rgb(221, 221, 221);
     margin: auto;
+    font-family: Arial;
 }
 
 
@@ -19,7 +20,7 @@ body {
 .logo {
     display: flex;
     justify-content: start;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     src: url('./media/Norse-Bold.otf');
     font-size: 5rem;
     align-items: center;
@@ -75,7 +76,7 @@ input[type="text"],input[type="email"],input[type="number"] {
 label {
     display:flex;
     flex-direction: column;
-    font-family:sans-serif;
+    font-family:Arial;
     font-weight: .4rem;
     font-size: .9rem;
     box-shadow: 10px;
@@ -90,7 +91,7 @@ input {
 }
 .footer-form {
     display: flex;
-    font-family: "Arial";
+    font-family: Arial;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
