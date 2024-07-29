@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="image">
+            <div class="logo"><img src="./media/pngimg.com - water_PNG50236.png" width="100", height="100">FLOW</div>
+            <div class="footer"></div>
+        </div>
+        <div class="form">
+            <div class="header">
+                <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div>
+                <div>Sign up <em>now</em> to get started.</em></div>
+                <div>You <em>know</em> you want to.</div>
+            </div>
+            <div class="form-bg-color">
+                <form action="#", method="post", class="labels", id="myform">
+                    <p class="user-prompt-message">Let's do this!</p>
+                    <div class="row">
+                        <label for="first-name">FIRST NAME
+                            <input type="text", id="first-name", required>
+                        </label>
+                        <label for="last-name">LAST NAME
+                            <input type="text", id="last-name", required>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label for="email">EMAIL
+                            <input type="email", id="email", required>
+                        </label>
+                        <label for="phone-number">PHONE NUMBER
+                            <input type="number", id="phone-number", required>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label for="pwd">ENTER PASSWORD
+                            <input type="password", id="pwd", minLength="12", required>
+                        </label>
+                        <label for="confirm_pwd">RE-ENTER PASSWORD
+                            <input type="password", id="confirm_pwd", minLength="12",  required>
+                        </label>
+                        <div id="message" style="color:red;"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer-form">
+                <input type="submit", form="myform" id="button", value="Create an Account">
+                <div class="login-footer">Already have an account? <a href="#">Log in</a></div>
+            </div>
+        </div>
+    </body>
+</html>
