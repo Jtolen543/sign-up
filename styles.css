@@ -138,8 +138,16 @@ input:focus:invalid {
     .image {
         display: none; /* Hide image on small screens */
     }
+    .header {
+        padding-top: 2em;
+        padding-right: 0;
+    }
     .form {
         flex: 0 0 100%; /* Make form take full width */
         min-width: 100%;
+        align-items: center;
+    }
+    .footer-form {
+        gap: 2em;
     }
 }
