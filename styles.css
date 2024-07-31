@@ -14,8 +14,7 @@ body {
     align-items: start;
     color: white;
     text-align: center;
-    flex:0 0 50%;
-
+    flex: 1 1 50%;
 }
 .logo {
     display: flex;
@@ -27,6 +26,7 @@ body {
     color:rgb(250, 250, 250);
     background-color:rgba(51, 49, 49, 0.63);
     width: 100%;
+    flex: 1 1 0;
 }
 .user-prompt-message {
     font-family: Arial;
@@ -43,6 +43,7 @@ body {
     gap:20px;
     font-size: 1.5rem;
     flex: 0 0 50%;
+    min-width: 50%;
 }
 .form-bg-color {
     background-color: white;
@@ -86,7 +87,7 @@ input {
     border-radius: 5px;
     border-color: #E5E7EB;
     border-style: double;
-    width: 22rem;
+    width: 14rem;
     height: 1.8rem;
 }
 .footer-form {
@@ -131,4 +132,13 @@ input:focus:invalid {
     height: 2.4rem;
     outline-color: rgb(250, 48, 48);
     box-shadow: 6px 6px 6px rgb(250, 48, 48);
+}
+@media (max-width: 768px) {
+    .image {
+        display: none; /* Hide image on small screens */
+    }
+    .form {
+        flex: 0 0 100%; /* Make form take full width */
+        min-width: 100%;
+    }
 }
