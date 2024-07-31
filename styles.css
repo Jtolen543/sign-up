@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     gap:20px;
     font-size: 1.5rem;
-    flex: 0 0 50%;
+    flex: 1 1 50%;
     min-width: 50%;
 }
 .form-bg-color {
@@ -87,7 +87,8 @@ input {
     border-radius: 5px;
     border-color: #E5E7EB;
     border-style: double;
-    width: 14rem;
+    width: 20vw;
+    min-width: 8.5rem;
     height: 1.8rem;
 }
 .footer-form {
@@ -133,7 +134,7 @@ input:focus:invalid {
     outline-color: rgb(250, 48, 48);
     box-shadow: 6px 6px 6px rgb(250, 48, 48);
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .image {
         display: none; /* Hide image on small screens */
     }
